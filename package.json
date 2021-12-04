@@ -1,0 +1,69 @@
+{
+  "name": "wmf",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/css": "11.5.0",
+    "@emotion/react": "11.7.0",
+    "@emotion/styled": "11.6.0",
+    "@mui/icons-material": "5.2.0",
+    "@mui/lab": "5.0.0-alpha.58",
+    "@mui/material": "5.2.2",
+    "@mui/styles": "5.2.2",
+    "date-fns": "2.27.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/preset-env": "7.16.4",
+    "@babel/preset-react": "7.16.0",
+    "@types/node": "16.11.11",
+    "@types/react": "17.0.37",
+    "@types/react-dom": "17.0.11",
+    "@types/react-redux": "7.1.20",
+    "@types/react-resizable": "1.7.4",
+    "@typescript-eslint/eslint-plugin": "5.5.0",
+    "@typescript-eslint/parser": "5.5.0",
+    "babel-loader": "8.2.3",
+    "clean-webpack-plugin": "4.0.0",
+    "css-loader": "6.5.1",
+    "del-cli": "4.0.1",
+    "dotenv-webpack": "7.0.3",
+    "eslint": "7.32.0",
+    "eslint-plugin-react": "7.27.1",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "file-loader": "6.2.0",
+    "fork-ts-checker-webpack-plugin": "6.5.0",
+    "html-webpack-plugin": "5.5.0",
+    "postcss": "8.4.4",
+    "postcss-loader": "6.2.1",
+    "raw-loader": "4.0.2",
+    "react-dev-utils": "11.0.4",
+    "style-loader": "3.3.1",
+    "ts-loader": "9.2.6",
+    "typescript": "4.5.2",
+    "webpack": "5.64.4",
+    "webpack-cli": "4.9.1",
+    "webpack-dev-server": "4.6.0",
+    "webpack-merge": "5.8.0"
+  },
+  "scripts": {
+    "start": "webpack serve --config ./webpack.dev.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie < 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 edge version",
+      "ie >= 11"
+    ]
+  }
+}
